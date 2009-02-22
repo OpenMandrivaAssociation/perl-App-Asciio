@@ -9,10 +9,23 @@ Group:		Development/Perl
 Summary:    Plain ASCII diagram
 Url:		http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/App/%{module}-%{version}.tar.gz
-BuildRequires:  perl(Term::Size)
+BuildRequires:  perl(Algorithm::Diff)
+BuildRequires:  perl(Clone)
+BuildRequires:  perl(Compress::Bzip2)
 BuildRequires:  perl(Data::TreeDumper)
 BuildRequires:  perl(Data::TreeDumper::Renderer::GTK)
+BuildRequires:  perl(Directory::Scratch)
+BuildRequires:  perl(Directory::Scratch::Structured)
+BuildRequires:  perl(Data::Compare)
 BuildRequires:  perl(Eval::Context)
+BuildRequires:  perl(List::MoreUtils)
+BuildRequires:  perl(Module::Util)
+BuildRequires:  perl(Test::Warn)
+BuildRequires:  perl(Test::Block)
+BuildRequires:  perl(Test::Exception)
+BuildRequires:  perl(Test::NoWarnings)
+BuildRequires:  perl(Test::Strict)
+BuildRequires:  perl(Term::Size)
 BuildArch:  noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 

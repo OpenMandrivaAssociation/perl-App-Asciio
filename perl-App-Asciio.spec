@@ -1,9 +1,11 @@
 %define module   App-Asciio
 %define version  1.02.71
 
+%define _requires_exceptions perl(App::Asciio::.*)  
+
 Name:		perl-%{module}
 Version:    %{version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Plain ASCII diagram

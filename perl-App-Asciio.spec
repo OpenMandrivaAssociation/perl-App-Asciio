@@ -27,6 +27,7 @@ BuildRequires:  perl(Test::Exception)
 BuildRequires:  perl(Test::NoWarnings)
 BuildRequires:  perl(Test::Strict)
 BuildRequires:  perl(Term::Size)
+BuildRequires:	perl(Module::Build)
 
 BuildArch:  noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
